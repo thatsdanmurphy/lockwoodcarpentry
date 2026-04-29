@@ -309,7 +309,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 20px; }
 }
 
 /* ── About ───────────────────────────────────────────────── */
-.about p { max-width: 62ch; }
+.about p { max-width: 100%; }
 .about p + p { margin-top: var(--space-3); }
 .about-close { color: var(--paynes); font-style: italic; }
 
