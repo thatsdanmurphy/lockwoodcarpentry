@@ -1,5 +1,5 @@
 /* ============================================================
-   Lockwood Contracting — stylesheet
+   Lockwood Carpentry — stylesheet
    Tokens → Reset → Typography → Layout → Sections → Responsive
    ============================================================ */
 
@@ -219,6 +219,13 @@ html { scroll-behavior: smooth; scroll-padding-top: 20px; }
 }
 .section-head h2 { margin: 0; }
 .section-note { color: var(--paynes); margin: 0; font-size: 1rem; }
+
+/* Center section headings, leave body copy left-aligned */
+.section h2 { text-align: center; }
+.services h2 { margin-bottom: var(--space-6); }
+.service-area { text-align: center; }
+.section-note { text-align: center; }
+.section-head { flex-direction: column; align-items: center; }
 
 /* ── Work grid ───────────────────────────────────────────── */
 .grid {
@@ -441,6 +448,8 @@ textarea { resize: vertical; min-height: 120px; }
 .lb-prev,
 .lb-next {
   position: absolute;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
   background: transparent;
   border: none;
   color: #fff;

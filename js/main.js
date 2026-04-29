@@ -1,4 +1,4 @@
-// ── Lockwood Contracting — main.js ──────────────────────────
+// ── Lockwood Carpentry — main.js ──────────────────────────
 // Lightbox gallery + contact form handler + footer year.
 // No dependencies.
 
